@@ -1,0 +1,32 @@
+{
+  "name": "resilient-mcp",
+  "version": "1.0.0",
+  "description": "MCP server to interact with ResilientDB",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc && shx chmod +x build/*.js",
+    "prepare": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harish876/Resilient-MCP.git"
+  },
+  "keywords": [
+    "mcp",
+    "resilientdb"
+  ],
+  "author": "harish876",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harish876/Resilient-MCP/issues"
+  },
+  "homepage": "https://github.com/harish876/Resilient-MCP#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "@types/node": "^22.14.0",
+    "axios": "^1.8.4",
+    "shx": "^0.4.0",
+    "typescript": "^5.8.2"
+  }
+}
